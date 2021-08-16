@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <!-- <remote fetch="https://git.yoctoproject.org/meta-raspberrypi" name="meta-raspberrypi"/> -->
+
+  <!-- <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-raspberrypi" revision="master"/> -->
+  <project name="poky" path="sources/poky" remote="yocto" revision="08acba82d160815549a3c237b8c4850f96534da6"/>
+
+</manifest>
