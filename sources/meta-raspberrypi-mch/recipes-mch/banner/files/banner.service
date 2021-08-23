@@ -1,0 +1,12 @@
+[Unit]
+Description=Board name
+After=systemd-logind.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=cat /etc/banner
+StandardOutput=tty
+
+[Install]
+WantedBy=default.target

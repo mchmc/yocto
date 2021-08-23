@@ -4,7 +4,9 @@
   <default sync-j="4"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
 
-  <project name="poky" path="sources/poky" remote="yocto" revision="jethro"/>
-  <project name="meta-raspberrypi" path="sources/poky/meta-raspberrypi" remote="yocto" revision="jethro"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="dunfell"/>
+  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="yocto" revision="dunfell"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="dunfell"/>
 </manifest>
